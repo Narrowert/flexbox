@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="mainbox.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+	<div class="tabs"> 
+		
+		<div class="tabs_nave">
+			<button class="tabs__nav" type="button" data-tab="#tab_1">Tab 1</button>
+            <button class="tabs__nav" type="button" data-tab="#tab_2">Tab 2</button>
+            <button class="tabs__nav" type="button" data-tab="#tab_3">Tab 3</button>
+		</div>
+		<div class="tabs__content">
+			<div class="tabs__item" id="tab_1">
+                <p>BIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+
+            <div class="tabs__item" id="tab_2">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+
+            <div class="tabs__item" id="tab_3">
+                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+		</div>
+
+		<div data-aos="fade-up-right" class="hello" > Hello</div>
+		<div data-aos="fade-up-right" class="hello" > How </div>
+		<div data-aos="fade-up-right" class="hello" > Are </div>
+		<div data-aos="fade-up-right" class="hello" > You </div>
+
+		<!-- <input type="checkbox" id="one" onchange="fun1()"> -->
+		<div>Вы программист?</div>
+		<input type="radio" value="5" name="radio"> Да
+		<input type="radio" value="53" name="radio"> Нет
+		<input type="radio" value="535" name="radio"> Почти
+		<button onclick="fun2()">Проверить какой элемент выбран</button>
+
+		<select name="" id="mySelect" onchange="fun3()">
+			<option value="">Apple</option>
+			<option value="">Banana</option>
+			<option value="">Pineapple</option>
+			<option value="">Opange</option>
+			<option value="">Grape</option>
+		</select>
+
+		<div>
+			<input type="range" min="0" max="100" step="2" oninput="fun6()" id="myRange">
+			<p id="one"></p>
+		</div>
+
+		<div>
+			<input type="range" min="0" max="100" id="range2" oninput="fun5()" step="2">
+			<input type="text" id="two">
+		</div>
+
+		<div class="example" id="example">
+			
+		</div>
+
+	</div>
+
+	
+</div>
+	 <script  src="java script\proj.js"> </script> 
+</body>
+</html>
